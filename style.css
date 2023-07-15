@@ -1,18 +1,32 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-   
+  box-sizing: border-box;
+  margin: 0;
 }
 
+header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
 
+img {
+  width: 60px;
+  height: 60px;
+}
+.bild {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
 
-
-header{
-    border: 2px solid black ;
-    top: 100px;
+section {
+  width: 100%;
+  height: 400px;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
 }
