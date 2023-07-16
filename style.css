@@ -47,5 +47,11 @@ p {
 
 a {
   font-size: 30px;
-  color: black;
+  color: #fd4654;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
 }
